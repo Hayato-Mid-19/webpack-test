@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 const doc = document;
 function conponent () {
   console.log('create element')
