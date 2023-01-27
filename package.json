@@ -1,0 +1,28 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "webpack": "webpack -d",
+    "serve": "npx live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hayato-Mid-19/webpack-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hayato-Mid-19/webpack-test/issues"
+  },
+  "homepage": "https://github.com/Hayato-Mid-19/webpack-test#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.2.1"
+  }
+}
