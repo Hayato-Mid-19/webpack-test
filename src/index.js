@@ -3,6 +3,7 @@ import _ from 'lodash';
 // import * as utilities from './utilities';
 import {Name as Name_obj} from './utilities';
 import Lion from './utilities';
+import style from './style.css';
 
 // console.log(Nijou(8));
 // console.log(Name);
@@ -11,6 +12,8 @@ import Lion from './utilities';
 
 console.log(Name_obj)
 console.log(Lion.say())
+
+console.log(style)
 
 const doc = document;
 function conponent () {
@@ -22,3 +25,4 @@ function conponent () {
 }
 
 doc.body.appendChild(conponent());
+doc.body.classList.add('haikei');
