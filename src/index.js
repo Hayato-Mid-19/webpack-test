@@ -4,6 +4,7 @@ import _ from 'lodash';
 import {Name as Name_obj} from './utilities';
 import Lion from './utilities';
 import style from './style.css';
+import logo from './logo.png';
 
 // console.log(Nijou(8));
 // console.log(Name);
@@ -26,3 +27,7 @@ function conponent () {
 
 doc.body.appendChild(conponent());
 doc.body.classList.add('haikei');
+
+const image = new Image;
+image.src = logo;
+doc.body.appendChild(image);
