@@ -1,10 +1,13 @@
 import _ from 'lodash';
 // import {Name, Nijou} from './utilities';
 // import * as utilities from './utilities';
-import {Name as Name_obj} from './utilities';
-import Lion from './utilities';
-import style from './style.css';
+// import {Name as Name_obj} from './utilities';
+// import Lion from './utilities';
+// import style from './style.css';
+import './style.css';
+import './style.scss';
 import logo from './logo.png';
+
 
 // console.log(Nijou(8));
 // console.log(Name);
@@ -14,7 +17,7 @@ import logo from './logo.png';
 console.log(Name_obj)
 console.log(Lion.say())
 
-console.log(style)
+// console.log(style)
 
 const doc = document;
 function conponent () {
